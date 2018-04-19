@@ -81,6 +81,10 @@ public:
         (double scale, const statistician& s);
 private:
     //Write the attributes of statistician here
+    int count;
+    int total;
+    int smallest;
+    int largest;
     
 };
 
